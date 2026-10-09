@@ -34,6 +34,8 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .credibility-wrap{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:14px 32px;text-align:center;}
 .credibility-featured{display:flex;align-items:center;gap:10px;font-family:'DM Sans',sans-serif;font-size:11.5px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);}
 .credibility-featured strong{font-family:'Fraunces',serif;font-weight:600;font-size:15px;letter-spacing:0;text-transform:none;color:var(--ink);}
+.credibility-featured a{text-decoration:none;color:inherit;}
+.credibility-featured a:hover strong{color:var(--mocha);text-decoration:underline;}
 .credibility-divider{width:1px;height:16px;background:var(--circle);}
 .credibility-badges{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;font-family:'DM Sans',sans-serif;font-size:11.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--mocha);}
 .credibility-badges span.sep{color:var(--circle);font-weight:400;}
