@@ -65,6 +65,8 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .booking-copy p{color:var(--ink-soft);font-size:15px;}
 .booking-embed{max-width:380px;margin:0 auto;background:var(--white);border:1px solid var(--circle);border-radius:4px;overflow:hidden;box-shadow:0 2px 18px rgba(26,21,18,0.06);}
 .booking-embed iframe{display:block;width:100%;}
+.booking-photo{max-width:220px;margin:0 auto 28px;border-radius:10px;overflow:hidden;box-shadow:0 8px 28px rgba(26,21,18,0.1);}
+.booking-photo img{display:block;width:100%;height:auto;}
 .amanda-note{font-family:'Fraunces',serif;font-style:italic;font-size:16.5px;line-height:1.6;color:var(--ink);}
 .amanda-signoff{font-family:'Alex Brush',cursive;font-size:24px;color:var(--mocha);margin:4px 0 20px;}
 .booking-redirect{font-size:13px;padding-top:16px;border-top:1px solid var(--circle);}
@@ -215,6 +217,8 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .press-line a{color:var(--mocha);text-decoration:none;border-bottom:1px solid var(--circle);}
 .press-line a:hover{color:var(--ink);}
 .press-line strong{color:var(--ink);}
+.speaking-photo{margin-top:28px;border-radius:10px;overflow:hidden;box-shadow:0 8px 28px rgba(26,21,18,0.1);}
+.speaking-photo img{display:block;width:100%;height:auto;}
 @media (max-width:860px){ .split .wrap{grid-template-columns:1fr;} }
 
 /* PARTNER CTA */
