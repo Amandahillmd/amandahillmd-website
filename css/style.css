@@ -250,6 +250,8 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .work-cta .eyebrow{color:var(--cream);}
 .work-cta h2{color:var(--white);font-size:clamp(26px,3.2vw,38px);margin-top:14px;}
 .work-grid{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+.work-grid-single{grid-template-columns:1fr;max-width:480px;margin-left:auto;margin-right:auto;}
+.work-grid-single .work-card{text-align:center;align-items:center;}
 .work-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:14px;padding:32px;display:flex;flex-direction:column;}
 .work-card h3{font-size:19px;color:var(--white);margin-bottom:12px;}
 .work-card p{font-size:14px;color:rgba(255,255,255,0.78);line-height:1.55;flex:1;margin-bottom:24px;}
