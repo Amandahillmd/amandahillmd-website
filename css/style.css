@@ -88,6 +88,9 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .booking-copy p{color:var(--ink-soft);font-size:15px;}
 .booking-embed{max-width:380px;margin:0 auto;background:var(--white);border:1px solid var(--circle);border-radius:4px;overflow:hidden;box-shadow:0 2px 18px rgba(26,21,18,0.06);}
 .booking-embed iframe{display:block;width:100%;}
+.expect-steps{text-align:left;max-width:420px;margin:24px auto 28px;display:flex;flex-direction:column;gap:14px;}
+.expect-step{display:grid;grid-template-columns:26px 1fr;gap:12px;font-size:13.5px;color:var(--ink-soft);align-items:baseline;}
+.expect-step span{font-family:'Fraunces',serif;font-weight:600;color:var(--mocha);font-size:13px;}
 .booking-photo{max-width:220px;margin:0 auto 28px;border-radius:10px;overflow:hidden;box-shadow:0 8px 28px rgba(26,21,18,0.1);}
 .booking-photo img{display:block;width:100%;height:auto;}
 .amanda-note{font-family:'Fraunces',serif;font-style:italic;font-size:16.5px;line-height:1.6;color:var(--ink);}
@@ -292,6 +295,13 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .work-card h3{font-size:19px;color:var(--white);margin-bottom:12px;}
 .work-card p{font-size:14px;color:rgba(255,255,255,0.78);line-height:1.55;flex:1;margin-bottom:24px;}
 .work-card .btn{align-self:flex-start;}
+.work-trust-list{list-style:none;margin:0 0 24px;display:flex;flex-direction:column;gap:9px;}
+.work-trust-list li{font-size:13px;color:rgba(255,255,255,0.85);padding-left:20px;position:relative;}
+.work-trust-list li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;border-radius:50%;background:var(--mocha);}
+.work-note{font-size:11.5px;color:rgba(255,255,255,0.5);margin-top:10px;margin-bottom:0;flex:none;}
+.work-grid-single .work-trust-list{align-items:center;}
+.work-grid-single .work-trust-list li{padding-left:0;}
+.work-grid-single .work-trust-list li::before{display:none;}
 .btn-cream{background:var(--cream);color:var(--ink);}
 .btn-cream:hover{background:var(--white);}
 @media (max-width:760px){ .work-grid{grid-template-columns:1fr;} }
@@ -301,6 +311,9 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .partner-logos{display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap;margin-top:18px;}
 .partner-logo-tile{width:100px;height:100px;border-radius:50%;overflow:hidden;border:1px solid var(--circle);box-shadow:0 6px 18px rgba(43,33,27,0.08);}
 .partner-logo-tile img{width:100%;height:100%;object-fit:cover;display:block;}
+.partners-note{text-align:center;margin-top:24px;font-size:12.5px;color:rgba(255,255,255,0.55);}
+.partners-note a{color:var(--cream);text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.3);}
+.partners-note a:hover{color:var(--white);border-color:var(--white);}
 
 /* FOOTER */
 footer{background:var(--offwhite);padding:56px 0 0;}
