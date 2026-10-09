@@ -25,6 +25,8 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .btn-mocha:hover{background:var(--dark-brown-hover);}
 .btn-outline{background:transparent;color:var(--white);border-color:rgba(255,255,255,0.7);}
 .btn-outline:hover{background:rgba(255,255,255,0.15);}
+.btn-pill{border-radius:999px;padding:11px 26px;font-size:10.5px;background:transparent;color:var(--ink);border:1px solid var(--ink);}
+.btn-pill:hover{background:var(--ink);color:var(--white);}
 .text-link-chevron{display:inline-flex;align-items:center;gap:7px;padding:14px 4px;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;transition:color 0.2s ease;}
 .text-link-chevron svg{width:10px;height:10px;flex:0 0 auto;}
 .text-link-chevron:hover{color:var(--mocha);}
@@ -288,9 +290,13 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .work-cta{background:var(--dark-brown);color:var(--white);padding:80px 0;max-width:1360px;margin:0 auto;border-radius:0;}
 .work-cta .eyebrow{color:var(--cream);}
 .work-cta h2{color:var(--white);font-size:clamp(26px,3.2vw,38px);margin-top:14px;}
-.work-grid{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+.work-subtitle{text-align:center;color:rgba(255,255,255,0.6);font-size:13px;margin:16px 0 0;}
+.work-grid{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:28px;}
 .work-grid-single{grid-template-columns:1fr;max-width:480px;margin-left:auto;margin-right:auto;}
 .work-grid-single .work-card{text-align:center;align-items:center;}
+.work-grid-three{grid-template-columns:repeat(3,1fr);max-width:1040px;margin-left:auto;margin-right:auto;}
+.work-grid-three .work-card{text-align:center;align-items:center;}
+.work-grid-three .work-card p{margin-bottom:0;}
 .work-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:14px;padding:32px;display:flex;flex-direction:column;}
 .work-card h3{font-size:19px;color:var(--white);margin-bottom:12px;}
 .work-card p{font-size:14px;color:rgba(255,255,255,0.78);line-height:1.55;flex:1;margin-bottom:24px;}
@@ -304,9 +310,8 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .work-grid-single .work-trust-list li::before{display:none;}
 .btn-cream{background:var(--cream);color:var(--ink);}
 .btn-cream:hover{background:var(--white);}
-.work-cta-box{background:var(--white);border-radius:16px;padding:36px 40px;max-width:420px;margin:36px auto 0;text-align:center;box-shadow:0 14px 40px rgba(0,0,0,0.28);}
+.work-cta-box{background:var(--white);border-radius:16px;padding:32px 40px;max-width:420px;margin:36px auto 0;text-align:center;box-shadow:0 14px 40px rgba(0,0,0,0.28);}
 .work-cta-box-label{font-size:12.5px;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:16px;}
-.work-cta-box .btn{width:100%;justify-content:center;}
 .work-cta-box .work-note{color:var(--ink-soft);margin-top:14px;margin-bottom:0;font-size:12px;}
 @media (max-width:760px){ .work-grid{grid-template-columns:1fr;} .work-cta-box{padding:30px 26px;} }
 
