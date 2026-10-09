@@ -266,6 +266,16 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 @media (max-width:500px){ .speaking-photo-grid{grid-template-columns:1fr 1fr;} }
 @media (max-width:860px){ .split .wrap{grid-template-columns:1fr;} }
 
+.podcast-list{max-width:720px;margin:0 auto;display:flex;flex-direction:column;}
+.podcast-item{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 4px;border-top:1px solid var(--circle);text-decoration:none;color:var(--ink);transition:opacity 0.2s ease;}
+.podcast-item:last-child{border-bottom:1px solid var(--circle);}
+.podcast-item:hover{opacity:0.65;}
+.podcast-date{font-size:11.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--mocha);font-weight:700;display:block;margin-bottom:6px;}
+.podcast-item h3{font-size:18px;margin-bottom:4px;}
+.podcast-item p{font-size:13.5px;color:var(--ink-soft);margin:0;}
+.podcast-link{flex:none;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;white-space:nowrap;}
+@media (max-width:600px){ .podcast-item{flex-direction:column;align-items:flex-start;gap:10px;} }
+
 /* PARTNER CTA */
 .partner{background:var(--dark-brown);color:var(--white);padding:80px 0;max-width:1360px;margin:0 auto;border-radius:0;}
 .partner .wrap{display:flex;gap:56px;align-items:center;flex-wrap:wrap;}
