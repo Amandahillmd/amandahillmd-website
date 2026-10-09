@@ -217,8 +217,10 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .press-line a{color:var(--mocha);text-decoration:none;border-bottom:1px solid var(--circle);}
 .press-line a:hover{color:var(--ink);}
 .press-line strong{color:var(--ink);}
-.speaking-photo{margin-top:28px;border-radius:10px;overflow:hidden;box-shadow:0 8px 28px rgba(26,21,18,0.1);}
-.speaking-photo img{display:block;width:100%;height:auto;}
+.speaking-photo-grid{margin-top:28px;display:grid;grid-template-columns:1.4fr 1fr;gap:14px;}
+.speaking-photo{border-radius:10px;overflow:hidden;box-shadow:0 8px 28px rgba(26,21,18,0.1);}
+.speaking-photo img{display:block;width:100%;height:100%;object-fit:cover;}
+@media (max-width:500px){ .speaking-photo-grid{grid-template-columns:1fr 1fr;} }
 @media (max-width:860px){ .split .wrap{grid-template-columns:1fr;} }
 
 /* PARTNER CTA */
