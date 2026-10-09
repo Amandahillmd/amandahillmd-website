@@ -39,6 +39,19 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .credibility-badges span.sep{color:var(--circle);font-weight:400;}
 @media (max-width:600px){ .credibility-wrap{gap:10px 20px;} .credibility-divider{display:none;} }
 
+/* MY PHILOSOPHY */
+.philosophy{padding:88px 0;background:var(--offwhite);max-width:1360px;margin:0 auto;border-radius:0;text-align:center;}
+.philosophy .eyebrow{text-align:center;}
+.philosophy h2{margin-top:14px;font-size:clamp(26px,3.6vw,40px);max-width:24ch;margin-left:auto;margin-right:auto;}
+.philosophy-lead{margin:18px auto 0;max-width:62ch;color:var(--ink-soft);font-size:16px;line-height:1.6;}
+.philosophy-grid{margin-top:48px;display:grid;grid-template-columns:repeat(3,1fr);gap:36px 40px;text-align:left;}
+.philosophy-item h4{font-family:'DM Sans',sans-serif;font-size:13.5px;font-weight:700;color:var(--mocha);margin-bottom:8px;}
+.philosophy-item p{font-size:14px;color:var(--ink-soft);line-height:1.55;}
+.philosophy-phrases{margin:48px auto 0;max-width:62ch;padding-top:32px;border-top:1px solid var(--circle);}
+.philosophy-phrases p{font-family:'Fraunces',serif;font-style:italic;font-size:17px;color:var(--ink);line-height:1.6;margin-bottom:12px;}
+@media (max-width:860px){ .philosophy-grid{grid-template-columns:1fr 1fr;} }
+@media (max-width:600px){ .philosophy-grid{grid-template-columns:1fr;} }
+
 /* PAGE HEADER (for non-home pages) */
 .page-header{padding:64px 0 48px;background:var(--cream);text-align:center;}
 .page-header .eyebrow{display:block;margin-bottom:10px;}
@@ -52,6 +65,11 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .booking-copy p{color:var(--ink-soft);font-size:15px;}
 .booking-embed{max-width:380px;margin:0 auto;background:var(--white);border:1px solid var(--circle);border-radius:4px;overflow:hidden;box-shadow:0 2px 18px rgba(26,21,18,0.06);}
 .booking-embed iframe{display:block;width:100%;}
+.amanda-note{font-family:'Fraunces',serif;font-style:italic;font-size:16.5px;line-height:1.6;color:var(--ink);}
+.amanda-signoff{font-family:'Alex Brush',cursive;font-size:24px;color:var(--mocha);margin:4px 0 20px;}
+.booking-redirect{font-size:13px;padding-top:16px;border-top:1px solid var(--circle);}
+.booking-redirect a{color:var(--mocha);text-decoration:none;border-bottom:1px solid var(--circle);}
+.booking-redirect a:hover{color:var(--ink);}
 
 /* EVENTS CALENDAR */
 .events{padding:88px 0;background:var(--offwhite);max-width:1360px;margin:0 auto;border-radius:0;}
@@ -218,6 +236,19 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 }
 .partner-copy .btn-outline-white:hover{background:rgba(255,255,255,0.12);border-color:var(--white);}
 @media (max-width:860px){ .partner .wrap{flex-direction:column;} .partner-copy{flex-basis:auto;} }
+
+/* WORK WITH ME — dual CTA */
+.work-cta{background:var(--dark-brown);color:var(--white);padding:80px 0;max-width:1360px;margin:0 auto;border-radius:0;}
+.work-cta .eyebrow{color:var(--cream);}
+.work-cta h2{color:var(--white);font-size:clamp(26px,3.2vw,38px);margin-top:14px;}
+.work-grid{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+.work-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:14px;padding:32px;display:flex;flex-direction:column;}
+.work-card h3{font-size:19px;color:var(--white);margin-bottom:12px;}
+.work-card p{font-size:14px;color:rgba(255,255,255,0.78);line-height:1.55;flex:1;margin-bottom:24px;}
+.work-card .btn{align-self:flex-start;}
+.btn-cream{background:var(--cream);color:var(--ink);}
+.btn-cream:hover{background:var(--white);}
+@media (max-width:760px){ .work-grid{grid-template-columns:1fr;} }
 
 /* PARTNERS */
 .partners{padding:70px 0 88px;background:var(--dark-brown);max-width:1360px;margin:0 auto;border-radius:0;}
