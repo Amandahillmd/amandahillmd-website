@@ -6,28 +6,33 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://amandahillmd.com/about.html</loc>
+    <loc>https://amandahillmd.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://amandahillmd.com/speaking.html</loc>
+    <loc>https://amandahillmd.com/speaking/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://amandahillmd.com/events.html</loc>
+    <loc>https://amandahillmd.com/events/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://amandahillmd.com/book.html</loc>
+    <loc>https://amandahillmd.com/book/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://amandahillmd.com/blog.html</loc>
+    <loc>https://amandahillmd.com/blog/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://amandahillmd.com/blog-hallmarks-of-aging/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
