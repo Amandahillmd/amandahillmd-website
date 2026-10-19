@@ -303,10 +303,9 @@ form.signup-form button:hover{background:var(--dark-brown-hover);}
 .podcast-embed-apple{display:flex;justify-content:center;}
 
 /* EVENT HIGHLIGHTS */
-.event-highlight-head{display:flex;align-items:flex-start;gap:16px;flex:1;}
-.event-org-badge{flex:none;width:50px;height:50px;border-radius:50%;background:var(--mocha-dark);color:var(--white);display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Fraunces',serif;font-size:8.5px;font-weight:600;letter-spacing:0.01em;line-height:1.2;padding:4px;}
+.event-highlight-head{display:flex;flex-direction:column;align-items:flex-start;gap:10px;flex:1;}
+.event-org-badge{flex:none;display:inline-flex;align-items:center;background:var(--mocha-dark);color:var(--white);border-radius:999px;padding:6px 14px;font-family:'DM Sans',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.04em;}
 .event-highlight-location{color:var(--ink-soft);font-weight:400;text-transform:none;letter-spacing:0;}
-@media (max-width:600px){ .event-highlight-head{gap:12px;} }
 @media (max-width:600px){ .podcast-item-summary{flex-direction:column;align-items:flex-start;gap:10px;} }
 .article-item-thumb{width:120px;height:90px;object-fit:cover;border-radius:6px;flex:none;}
 @media (max-width:600px){ .article-item-thumb{width:100%;height:160px;} }
