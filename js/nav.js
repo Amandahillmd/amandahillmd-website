@@ -6,12 +6,14 @@
     var isOpen = links.classList.toggle('nav-open');
     btn.classList.toggle('open', isOpen);
     btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.documentElement.classList.toggle('nav-locked', isOpen);
   });
   links.querySelectorAll('a').forEach(function (a) {
     a.addEventListener('click', function () {
       links.classList.remove('nav-open');
       btn.classList.remove('open');
       btn.setAttribute('aria-expanded', 'false');
+      document.documentElement.classList.remove('nav-locked');
     });
   });
 })();
