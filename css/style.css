@@ -107,6 +107,7 @@ h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;letter-spacing:-0.01em;lin
 .booking-copy .eyebrow{display:block;margin-bottom:10px;}
 .booking-copy h2{margin:0 0 14px;font-size:clamp(24px,3vw,32px);}
 .booking-copy p{color:var(--ink-soft);font-size:15px;}
+.booking-copy .btn{display:block;width:100%;text-align:center;box-sizing:border-box;}
 .booking-embed{max-width:380px;margin:0 auto;background:var(--white);border:1px solid var(--circle);border-radius:4px;overflow:hidden;box-shadow:0 2px 18px rgba(26,21,18,0.06);}
 .booking-embed iframe{display:block;width:100%;}
 .video-wrap{position:relative;width:100%;padding-top:56.25%;border-radius:10px;overflow:hidden;box-shadow:0 10px 32px rgba(26,21,18,0.12);}
